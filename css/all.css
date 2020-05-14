@@ -182,6 +182,10 @@ body {
   padding-bottom: 16px;
 }
 
+.page3 .introduce {
+  width: 100%;
+}
+
 .page3 .introduce li {
   list-style: none;
   text-align: center;
@@ -194,5 +198,69 @@ body {
   font-size: 20px;
   line-height: 42px;
   padding-bottom: 48px;
+}
+
+.page3 .brand_wrap {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 160px;
+}
+
+.page3 .brand_wrap li {
+  width: 50%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page3 .brand_wrap li img {
+  display: block;
+}
+
+.page3 .brand_wrap li:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.page3 .brand_wrap li:nth-child(3) {
+  padding-left: 12px;
+}
+
+.page4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page4 .container {
+  max-width: 1200px;
+}
+
+.page4 .container .title {
+  width: 100%;
+  font-size: 64px;
+  line-height: 75px;
+  font-style: italic;
+  padding-bottom: 16px;
 }
 /*# sourceMappingURL=all.css.map */
