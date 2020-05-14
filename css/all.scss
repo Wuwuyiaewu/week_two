@@ -183,6 +183,9 @@ body {
 .page4 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  position: relative;
   .container {
     max-width: 1200px;
     .title {
@@ -190,7 +193,27 @@ body {
       font-size: 64px;
       line-height: 75px;
       font-style: italic;
-      padding-bottom: 16px;
+      padding-top: 64px;
+      padding-bottom: 24px;
+    }
+    p {
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 35px;
+      padding-bottom: 48px;
+    }
+  }
+  .secret_woman {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    background-image: url(/images/photo-1561291386-5be50364cfb5.png);
+    background-size: cover;
+    background-position: bottom;
+    img{
+      width: 384px;
+      height: 528px;
     }
   }
 }

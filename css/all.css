@@ -250,6 +250,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Roboto;
+  position: relative;
 }
 
 .page4 .container {
@@ -261,6 +265,32 @@ body {
   font-size: 64px;
   line-height: 75px;
   font-style: italic;
-  padding-bottom: 16px;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.page4 .container p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 35px;
+  padding-bottom: 48px;
+}
+
+.page4 .secret_woman {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1200px;
+  background-image: url(/images/photo-1561291386-5be50364cfb5.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.page4 .secret_woman img {
+  width: 384px;
+  height: 528px;
 }
 /*# sourceMappingURL=all.css.map */
